@@ -51,7 +51,7 @@ const Portfolio = () => {
       <div className="container">
         <h1 className="text-uppercase text-center py-5">portfolio</h1>
         <div className="image-box-wrapper row row-cols-auto justify-content-center">
-          <div className="portfolio-image-box" onclick={openPopupboxNetflix}>
+          <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
             <img
               className="portfolio-image"
               src={netflix}

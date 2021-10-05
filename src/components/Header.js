@@ -5,21 +5,16 @@ const Header = () => {
   return (
     <div id="home" className="header-wraper">
       <div className="main-info">
-        <h1>Web Development and websites</h1>
+        <h1>Software Engineer</h1>
         <ReactTyped
           className="typed-text"
-          strings={[
-            'Web Design',
-            'Web Development',
-            'Facebook Ads SMM',
-            'Google Ads',
-          ]}
+          strings={['PHP', 'Node JS', 'JavaScript', 'React JS']}
           typeSpeed={40}
           backSpeed={60}
           loop
         />
         <a href="/" className="btn-main-offer">
-          Contact Me
+          contact me
         </a>
       </div>
     </div>

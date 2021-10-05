@@ -26,7 +26,9 @@ nav {
 }
 
 .logo {
-  width: 16.25rem;
+  width: 4rem;
+  margin-top: 1.1rem;
+  margin-left: 1.2rem;
 }
 
 /*----- MENU LINKS --------*/
@@ -72,7 +74,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url(wall-and-laptop-background.jpg) no-repeat;
+  background: url(HeaderImg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -149,6 +151,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2.5rem;
 }
 
 .profile-img {
@@ -161,6 +164,7 @@ nav ul li {
 .about-heading {
   color: var(--primary-orange);
   text-transform: uppercase;
+  padding-bottom: 1rem;
 }
 
 @media(max-width: 468px) {
@@ -177,7 +181,7 @@ nav ul li {
 }
 
 .services h1 {
-  color: var(--primary-dark);
+  color: var(--primary-orange);
   text-transform: uppercase;
 }
 

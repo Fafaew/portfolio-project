@@ -171,10 +171,35 @@ nav ul li {
   padding-bottom: 1rem;
 }
 
-@media(max-width: 468px) {
+.about-marker {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 4px solid var(--primary-dark);
+  background: var(--primary-orange);
+  margin-top: 0.625rem;
+  z-index: 3;
+} 
+
+.aboutIcons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.about-paragraph {
+  margin-top: -19px;
+  margin-left: 26px;
+}
+
+
+@media(max-width: 768px) {
   .profile-img {
     width: 10rem;
   }
+  h1.about-heading {
+    text-align: center;
+  }  
 }
 
 /************************ SERVICES *********************************/

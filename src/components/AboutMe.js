@@ -1,5 +1,12 @@
 import React from 'react';
 import author from '../me.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faJsSquare,
+  faNode,
+  faPhp,
+  faReact,
+} from '@fortawesome/free-brands-svg-icons';
 
 const AboutMe = () => {
   return (
@@ -13,22 +20,24 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">about me</h1>
           <p>
-            Hello! I am Rafael. I have been developing websites for over 2
-            years. I'm Full-Stack Web Developer. The Technologies that I use are
-            PHP, NodeJS, JavaScript and ReactJS. I create responsive websites
-            that are displayed on all devices desktops and smartphones. Of
-            course, before I begin developing any webapp, Landing Page, Business
-            Website or E-commerce, I need to have a ready-made project layout
-            (sketch). And I’m ready to do this for you, before we start
-            developing your website, we will discuss all the details of your
-            niche with you, I will conduct a survey of your competitors and make
-            a list of their advantages and weaknesses. All this is necessary to
-            give your customers something that your competitors do not provide,
-            or to present it too, but better! After the website is finished and
-            ready to deploy and sell a product or service. It is essential that
-            your potential clients know about you. I will create an advertising
-            campaign for you in Google Adwords and Facebook!
+            Hello everyone! I'm Rafael Gomes, a web developer from Minas Gerais,
+            Brazil. I have been developing websites for over 2 years.
           </p>
+          <p>Apart from coding, some other activities that I love to do:</p>
+          <div className="about-marker"></div>
+          <p className="about-paragraph">Play Video Games</p>
+          <div className="about-marker"></div>
+          <p className="about-paragraph">Practice Sports</p>
+          <div className="about-marker"></div>
+          <p className="about-paragraph">Learn about financial market</p>
+          <br />
+          <p>Technologies that I use:</p>
+          <div className="aboutIcons">
+            <FontAwesomeIcon className="icon" icon={faPhp} size="2x" />
+            <FontAwesomeIcon className="icon" icon={faNode} size="2x" />
+            <FontAwesomeIcon className="icon" icon={faJsSquare} size="2x" />
+            <FontAwesomeIcon className="icon" icon={faReact} size="2x" />
+          </div>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ const Services = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />{' '}
               </div>
-              <h3>Web Design</h3>
+              <h3>Landing Pages</h3>
               <p>
                 I approach each project individually and always focus on the
                 result
@@ -26,7 +26,7 @@ const Services = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />{' '}
               </div>
-              <h3>Web Development</h3>
+              <h3>E-Commerce</h3>
               <p>Your Website will be build with an new proven technologies</p>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Services = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faFacebook} size="2x" />{' '}
               </div>
-              <h3>Facebook Ads Smm</h3>
+              <h3>Blogs</h3>
               <p>
                 Your potencial clientes well see your services or product on
                 Facebook
@@ -47,7 +47,7 @@ const Services = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />{' '}
               </div>
-              <h3>Google Ads</h3>
+              <h3>Custom Projects</h3>
               <p>
                 Your service or product will appear at the top of the Google
                 search

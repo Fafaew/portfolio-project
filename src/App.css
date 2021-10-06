@@ -55,6 +55,10 @@ nav ul li {
   height: 6rem !important;
 }
 
+.nav-link {
+  color: var(--primary-white) !important;
+}
+
 @media(max-width: 768px) {
  .navbar-brand {
    width: 7rem;
@@ -210,6 +214,7 @@ nav ul li {
   margin-bottom: 1.875rem;
   background: var(--primary-white);
   transition: 0.3s ease-in-out;
+  padding-top: 2rem;
 }
 
 .services .box:hover {

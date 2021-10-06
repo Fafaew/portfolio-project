@@ -10,14 +10,10 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2014-2015</h3>
+            <h3>2019</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
-              tempora sint voluptates veritatis officia, omnis facilis
-              asperiores magnam esse explicabo repellat quisquam rem
-              consequuntur consectetur cumque doloribus porro quia accusamus.
-              Aperiam voluptatem labore unde quidem necessitatibus, consequatur
-              assumenda nam eveniet.
+              Start my carrer as developer, creating personal projects and
+              working as a freelancer
             </p>
           </div>
         </div>
@@ -25,15 +21,8 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2015-2016</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
-              tempora sint voluptates veritatis officia, omnis facilis
-              asperiores magnam esse explicabo repellat quisquam rem
-              consequuntur consectetur cumque doloribus porro quia accusamus.
-              Aperiam voluptatem labore unde quidem necessitatibus, consequatur
-              assumenda nam eveniet.
-            </p>
+            <h3>2020-2021</h3>
+            <p>Worked with PHP and JavaScript</p>
           </div>
         </div>
         {/* - */}

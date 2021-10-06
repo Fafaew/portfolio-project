@@ -1,103 +1,61 @@
 import React from 'react';
-import netflix from '../images/netflix.png';
-import cityGuide from '../images/city-guide-app.png';
-import portfolio from '../images/portfolio.png';
-import taskManager from '../images/task-manager.png';
-//FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
-//REACT POPUPBOX
-import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
-import 'react-popupbox/dist/react-popupbox.css';
+import { faFacebook, faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
+import postit from '../images/imgPortfolio/postit.jpg';
+import gymImg from '../images/imgPortfolio/gymImg.jpg';
+import develop from '../images/imgPortfolio/Develop.jpg';
 
 const Portfolio = () => {
-  //Netflix
-  const openPopupboxNetflix = () => {
-    const content = (
-      <>
-        <img
-          className="portfolio-image-popupbox"
-          src={netflix}
-          alt="Netflix Clone Project..."
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          tenetur alias eum modi reprehenderit natus quidem blanditiis eveniet,
-          voluptates quam rem quas iusto. Suscipit, error dicta ea omnis in sed.
-        </p>
-        <b>GitHub:</b>
-        <a
-          className="hyper-link"
-          onClick={() => window.open('https://www.github.com/fafaew')}
-        >
-          https://www.github.com/fafaew
-        </a>
-      </>
-    );
-    PopupboxManager.open({ content });
-  };
-
-  const popupConfigNetflix = {
-    titleBar: {
-      enable: true,
-      text: 'Netflix clone project',
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
-
   return (
-    <div id="portfolio" className="portfolio-wrapper">
+    <div id="portfolio" className="portfolio">
+      <h1 className="py-5">Portfolio</h1>
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">portfolio</h1>
-        <div className="image-box-wrapper row row-cols-auto justify-content-center">
-          <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
-            <img
-              className="portfolio-image"
-              src={netflix}
-              alt="Netflix Clone project"
-            />
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+        <div className="row">
+          <div className=" col-lg-3 col-md-6 col-sm-6">
+            <div className="box">
+              <div className="portfolio-image">
+                <img src={postit} alt="task hand" />
+              </div>
+              <h3>Task Tracker</h3>
+              <p>
+                It's a single place where you and your team can organize and
+                prioritize every single task or item that needs to get done
+              </p>
+            </div>
           </div>
-        </div>
-        {/* - */}
-        <div className="image-box-wrapper row row-cols-auto justify-content-center">
-          <div className="portfolio-image-box">
-            <img
-              className="portfolio-image"
-              src={cityGuide}
-              alt="City Guide Projecy project"
-            />
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          <div className=" col-lg-3 col-md-6 col-sm-6">
+            <div className="box">
+              <div className="portfolio-image">
+                <img src={gymImg} alt="gym weights" />
+              </div>
+              <h3>Gym Management</h3>
+              <p>
+                Gym management software is designed to help gym managers and
+                owners organize and manage all the aspects of their business
+              </p>
+            </div>
           </div>
-        </div>
-        {/* - */}
-        <div className="image-box-wrapper row row-cols-auto justify-content-center">
-          <div className="portfolio-image-box">
-            <img
-              className="portfolio-image"
-              src={portfolio}
-              alt="portfolio Clone project"
-            />
-            <div className="overflow"></div>
+          <div className=" col-lg-3 col-md-6 col-sm-6">
+            <div className="box">
+              <div className="portfolio-image">
+                <img src={develop} alt="computer screen" />
+              </div>
+              <h3>In Progress</h3>
+              <p>In Development</p>
+            </div>
           </div>
-        </div>
-        {/* - */}
-        <div className="image-box-wrapper row row-cols-auto justify-content-center">
-          <div className="portfolio-image-box">
-            <img
-              className="portfolio-image"
-              src={taskManager}
-              alt="Task Manager Clone project"
-            />
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          <div className=" col-lg-3 col-md-6 col-sm-6">
+            <div className="box">
+              <div className="portfolio-image">
+                <img src={develop} alt="computer screen" />
+              </div>
+              <h3>In Progress</h3>
+              <p>In Development</p>
+            </div>
           </div>
         </div>
       </div>
-      <PopupboxContainer {...popupConfigNetflix} />
     </div>
   );
 };

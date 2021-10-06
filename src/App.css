@@ -276,18 +276,6 @@ nav ul li {
   color: var(--primary-orange);
 }
 
-.experience-wrapper::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 50%;
-  margin-left: -0.0625rem;
-  width: 0.125rem;
-  height: 100%;
-  background: var(--primary-grey);
-  z-index: 1;
-}
-
 .timeline-block {
   width: calc(50% + 0.5rem);
   display: flex;
@@ -303,7 +291,6 @@ nav ul li {
   float: left;
   direction: rtl;
 }
-
 
 .marker {
   width: 1rem;
@@ -326,6 +313,26 @@ nav ul li {
   margin-top: 0.3125rem;
   color: var(--primary-red);
   font-weight: 900;
+}
+
+.vertical-timeline::before {
+  background: none !important;
+}
+
+.vertical-timeline-element-content {
+  padding-top: 0 !important;
+  padding-bottom: 8px !important;
+}
+
+.vertical-timeline-element-content-arrow {
+  filter: invert(1);
+}
+
+.icon-experience {
+  display: inline-block !important;
+  margin-left: -10px !important;  
+  margin-bottom: 10px;
+  width: 20px !important;
 }
 
 /*------------ MEDIA ------------------*/

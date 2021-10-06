@@ -23,6 +23,7 @@
     "react-share": "^4.4.0",
     "react-tsparticles": "^1.35.2",
     "react-typed": "^1.2.0",
+    "react-vertical-timeline-component": "^3.3.3",
     "reactjs-popup": "^2.0.5",
     "web-vitals": "^1.0.1"
   },

@@ -4,7 +4,6 @@ import { useForm } from 'react-hook-form';
 
 const Contacts = () => {
   const [successMessage, setSucessMessage] = useState('');
-  // const { register, handleSubmit, errors } = useForm();
   const {
     register,
     handleSubmit,
@@ -85,8 +84,8 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Phone number"
                   name="phone"
-                  aria-invalid={errors.name ? 'true' : 'false'}
-                  {...register('name', {
+                  aria-invalid={errors.phone ? 'true' : 'false'}
+                  {...register('phone', {
                     required: 'Please add your phone number',
                   })}
                 />
@@ -103,7 +102,7 @@ const Contacts = () => {
                   placeholder="Email"
                   name="email"
                   aria-invalid={errors.name ? 'true' : 'false'}
-                  {...register('name', {
+                  {...register('email', {
                     required: 'Please provide your email',
                     pattern: {
                       value: /^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/,
@@ -124,7 +123,7 @@ const Contacts = () => {
                   placeholder="Subject"
                   name="subject"
                   aria-invalid={errors.name ? 'true' : 'false'}
-                  {...register('name', {
+                  {...register('subject', {
                     required: 'OOPS!, you forget to type the subjeect',
                   })}
                 />
@@ -144,7 +143,7 @@ const Contacts = () => {
                   placeholder="Please, Describe shortly your project"
                   name="description"
                   aria-invalid={errors.name ? 'true' : 'false'}
-                  {...register('name', {
+                  {...register('description', {
                     required: 'Please, Describe shortly your project needs..',
                   })}
                 ></textarea>

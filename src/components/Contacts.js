@@ -124,7 +124,7 @@ const Contacts = () => {
                   name="subject"
                   aria-invalid={errors.name ? 'true' : 'false'}
                   {...register('subject', {
-                    required: 'OOPS!, you forget to type the subjeect',
+                    required: 'OOPS!, you forget to type the subject',
                   })}
                 />
                 <div className="line"></div>
@@ -132,14 +132,12 @@ const Contacts = () => {
               <span className="error-message">
                 {errors.subject && errors.subject.message}
               </span>
-            </div>
-            <div className="container">
-              <div className="col-md-6 col-xs-12 mx-auto">
-                <button  className="btn-main-offer contact-btn" type="submit">
+              <div className="btn-contact-input">
+                <button  className="btn-main-offer contact-btn mt-50" type="submit">
                   Contact-me
                 </button>
               </div>
-            </div>
+            </div>          
           </div>
         </form>
       </div>

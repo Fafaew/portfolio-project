@@ -562,6 +562,15 @@ textarea.form-control {
   color: var(--primary-green);
 }
 
+.btn-contact-input {
+  margin-top: 2rem;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: var(--primary-orange);
+  transition: background-color 5000s ease-in-out 0s;
+}
+
 /*---------------- MEDIA -----------------------*/
 @media(max-width: 768px) {
   .contacts {

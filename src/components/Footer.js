@@ -17,11 +17,8 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>city Moscow Main st 2020 office 223</p>
-            </div>
-            <div className="d-flex">
-              <a href="tel:5555-555-55">+7(960)555-5555</a>
-            </div>
+              <p>Minas Gerais | Brazil</p>
+            </div>            
             <div className="d-flex">
               <p>teste@gmail.com</p>
             </div>

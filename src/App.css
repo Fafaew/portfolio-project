@@ -161,6 +161,10 @@ nav ul li {
 }
 
 /************************ ABOUT ME *********************************/
+.about-me {
+background: var(--primary-light-grey);
+}
+
 .photo-wrap {
   display: flex;
   justify-content: center;

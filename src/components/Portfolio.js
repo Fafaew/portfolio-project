@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGoogle } from '@fortawesome/free-brands-svg-icons';
-import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
+import { faPhp, faGoogle, faGitAlt, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 import postit from '../images/imgPortfolio/postit.jpg';
 import gymImg from '../images/imgPortfolio/gymImg.jpg';
 import develop from '../images/imgPortfolio/Develop.jpg';
@@ -21,8 +20,14 @@ const Portfolio = () => {
               <p>
                 It's a single place where you and your team can organize and
                 prioritize every single task or item that needs to get done
-              </p>
-            </div>
+              </p>  
+              <div className="portfolioIcons" >
+                <a href="https://github.com/Fafaew/ReactTraskTracker" target="blank">
+                <FontAwesomeIcon icon={faGithubAlt} size="2x" />
+                <p>Github</p>
+                </a>
+              </div>             
+            </div>                 
           </div>
           <div className=" col-lg-3 col-md-6 col-sm-6">
             <div className="box">
@@ -34,6 +39,12 @@ const Portfolio = () => {
                 Gym management software is designed to help gym managers and
                 owners organize and manage all the aspects of their business
               </p>
+              <div className="portfolioIcons" >
+                <a href="https://github.com/Fafaew/Gym-Management" target="blank">
+                <FontAwesomeIcon icon={faGithubAlt} size="2x" />
+                <p>Github</p>
+                </a>
+              </div> 
             </div>
           </div>
           <div className=" col-lg-3 col-md-6 col-sm-6">

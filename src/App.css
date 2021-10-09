@@ -254,7 +254,7 @@ background: var(--primary-light-grey);
   margin-bottom: 1.875rem;
   background: var(--primary-white);
   transition: 0.3s ease-in-out;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .portfolio .box:hover {
@@ -282,8 +282,19 @@ background: var(--primary-light-grey);
 .box:hover .portfolio-image > img {
     border: 1px solid var(--primary-dark) !important;
   }
+  
+.portfolio-image + h3 {
+  margin-top: 30px;
+}
 
+.portfolioIcons {
+  margin-top: 4rem;
+}
 
+.portfolioIcons a, .portfolioIcons a:hover  {
+  text-decoration: none;
+  color: var(--primary-dark);
+}
 
 
 

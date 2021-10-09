@@ -22,7 +22,7 @@ const Portfolio = () => {
                 prioritize every single task or item that needs to get done
               </p>  
               <div className="portfolioIcons" >
-                <a href="https://github.com/Fafaew/ReactTraskTracker" target="blank">
+                <a href="https://github.com/Fafaew/ReactTraskTracker" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faGithubAlt} size="2x" />
                 <p>Github</p>
                 </a>
@@ -40,7 +40,7 @@ const Portfolio = () => {
                 owners organize and manage all the aspects of their business
               </p>
               <div className="portfolioIcons" >
-                <a href="https://github.com/Fafaew/Gym-Management" target="blank">
+                <a href="https://github.com/Fafaew/Gym-Management" rel="noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faGithubAlt} size="2x" />
                 <p>Github</p>
                 </a>

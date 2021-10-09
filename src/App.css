@@ -21,17 +21,25 @@ font-family: "Roboto Condensed", sans-serif !important;
 
 /************************ NAVBAR *********************************/
 
+.navbar {
+  height: 5rem;
+}
+
 nav {
   z-index: 2;
 }
 
 .logo {
-  width: 4rem;
+  width: 3.5rem;
   margin-top: 1.1rem;
   margin-left: 1.2rem;
 }
 
 /*----- MENU LINKS --------*/
+.nav-link:hover {
+  transition:  .5s ease-in-out;
+}
+
 nav a.nav-link {
   font-size: .8rem;
   letter-spacing: 0.0375rem;
@@ -46,13 +54,21 @@ nav ul li {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primary-dark);
+  border-bottom: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
+  border-bottom: 0.1875rem solid var(--primary-orange);  
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom: 0.1875rem solid var(--primary-orange); 
 }
 
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 5rem !important;
 }
 
 .nav-link {
@@ -65,13 +81,7 @@ nav ul li {
  }
 }
 
-.navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
-}
 
-.navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
-}
 
 
 /************************ HEADER *********************************/

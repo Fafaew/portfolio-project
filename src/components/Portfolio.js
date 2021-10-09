@@ -53,7 +53,6 @@ const Portfolio = () => {
                 <img src={develop} alt="computer screen" />
               </div>
               <h3>In Progress</h3>
-              <p>In Development</p>
             </div>
           </div>
           <div className=" col-lg-3 col-md-6 col-sm-6">
@@ -62,7 +61,6 @@ const Portfolio = () => {
                 <img src={develop} alt="computer screen" />
               </div>
               <h3>In Progress</h3>
-              <p>In Development</p>
             </div>
           </div>
         </div>

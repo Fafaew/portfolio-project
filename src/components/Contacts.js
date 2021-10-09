@@ -54,7 +54,7 @@ const Contacts = () => {
       <div className="container">
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="row">
-            <div className="col-md-6 col-xs-12">
+            <div className="col-md-6 col-xs-12 mx-auto">
               {/* {NAME INPUT} */}
               <div className="text-center">
                 <input
@@ -133,28 +133,12 @@ const Contacts = () => {
                 {errors.subject && errors.subject.message}
               </span>
             </div>
-            <div className="col-md-6 col-xs-12">
-              {/* {DESCRIPTION } */}
-              <div className="text-center">
-                <textarea
-                  id="description"
-                  type="text"
-                  className="form-control"
-                  placeholder="Please, Describe shortly your project"
-                  name="description"
-                  aria-invalid={errors.name ? 'true' : 'false'}
-                  {...register('description', {
-                    required: 'Please, Describe shortly your project needs..',
-                  })}
-                ></textarea>
-                <div className="line"></div>
+            <div className="container">
+              <div className="col-md-6 col-xs-12 mx-auto">
+                <button  className="btn-main-offer contact-btn" type="submit">
+                  Contact-me
+                </button>
               </div>
-              <span className="error-message">
-                {errors.description && errors.description.message}
-              </span>
-              <button className="btn-main-offer contact-btn" type="submit">
-                Contact-me
-              </button>
             </div>
           </div>
         </form>

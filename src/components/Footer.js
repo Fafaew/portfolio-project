@@ -1,16 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faGithubAlt, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub,  faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
-import {
-  FacebookShareButton,
-  FacebookIcon,
-  TwitterShareButton,
-  TwitterIcon,
-  RedditShareButton,
-  RedditIcon,
-  LinkedinShareButton,
-  LinkedinIcon,
-} from 'react-share';
 
 const Footer = () => {
   return (
@@ -18,11 +8,11 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
-            <div className="d-flex">
+            <div className="city-footer">
               <p>Minas Gerais | Brazil</p>
-            </div>            
+            </div>
           </div>          
-      <div className="col-md-7 col-xs-12 mx-auto">
+      <div className="col-md-7 mx-auto">
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
           <h4 className="footer-text">
               Find Me On 

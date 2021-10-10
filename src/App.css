@@ -593,6 +593,15 @@ input:-webkit-autofill {
   padding: 3rem;
 }
 
+@media(max-width: 768px) {
+  .footer {
+    height: 60vh;
+  }
+  .city-footer {
+    text-align: center;
+  }
+}
+
 .footer a {
   text-decoration: none;
   color: var(--primary-dark-grey);
@@ -607,7 +616,7 @@ input:-webkit-autofill {
 .footer-text {
   color: var(--primary-orange);
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .footer-icons, .footer-icons p {
@@ -615,6 +624,11 @@ input:-webkit-autofill {
   margin-left: auto;
   text-align: center;
 };
+
+
+
+
+
 
 
 

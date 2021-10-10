@@ -79,6 +79,9 @@ nav ul li {
  .navbar-brand {
    width: 7rem;
  }
+ .navbar .container {
+   background-color: rgb(33,37,41);
+ }
 }
 
 
@@ -595,7 +598,7 @@ input:-webkit-autofill {
 
 @media(max-width: 768px) {
   .footer {
-    height: 60vh;
+    height: 32vh;
   }
   .city-footer {
     text-align: center;
@@ -624,27 +627,5 @@ input:-webkit-autofill {
   margin-left: auto;
   text-align: center;
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

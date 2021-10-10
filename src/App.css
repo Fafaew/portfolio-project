@@ -359,6 +359,10 @@ background: var(--primary-light-grey);
   font-weight: 900;
 }
 
+.vertical-timeline {
+  overflow-x: hidden;
+}
+
 .vertical-timeline::before {
   background: none !important;
 }

@@ -599,15 +599,24 @@ input:-webkit-autofill {
   color: var(--primary-dark-grey);
 }
 
-.footer a:hover {
+.footer-icons a:hover {
   text-decoration: none;
   color: var(--primary-orange);
   cursor: pointer;
 }
 
-.footer p {
-  margin-bottom: 0;
+.footer-text {
+  color: var(--primary-orange);
+  text-align: center;
+  margin-bottom: 2rem;
 }
+
+.footer-icons, .footer-icons p {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+};
+
 
 
 

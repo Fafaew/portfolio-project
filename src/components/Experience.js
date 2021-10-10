@@ -15,7 +15,7 @@ const Experience = () => {
   return (
     <VerticalTimeline>
       <div id="experience" className="experience">
-        <div className="d-flex justify-content-center my-5">
+        <div className="d-flex justify-content-center my-3">
           <h1>Experience</h1>
         </div>
       </div>

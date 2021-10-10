@@ -7,11 +7,7 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-6">
-            <div className="city-footer">
-              <p>Minas Gerais | Brazil</p>
-            </div>
-          </div>          
+          <div className="col-lg-4 col-md-6 col-sm-6" />            
       <div className="col-md-7 mx-auto">
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
           <h4 className="footer-text">
@@ -35,10 +31,13 @@ const Footer = () => {
                     <FontAwesomeIcon className="mx-auto" icon={faGithub} size="3x" />
                     <p>Github</p>
                   </a>                                   
-              </div>               
-            </div>                  
+              </div>                    
+            </div>                                   
           </div>
           </div>
+          <div className="city-footer">
+              <p>Minas Gerais | Brazil</p>
+          </div> 
         </div>
       </div>
     </div>

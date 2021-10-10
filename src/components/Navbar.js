@@ -79,7 +79,18 @@ const Navbar = () => {
                 className="nav-link"
                 href="/"
               >
-                Contacts
+                Contact
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                smooth={true}
+                to="footer"
+                offset={-110}
+                className="nav-link"
+                href="/"
+              >
+                Social Media
               </Link>
             </li>
           </ul>

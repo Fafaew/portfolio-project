@@ -596,7 +596,7 @@ input:-webkit-autofill {
 
 @media(max-width: 768px) {
   .footer {
-    height: 32vh;
+    height: 40vh;
   }
   .city-footer {
     text-align: center;

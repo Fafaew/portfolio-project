@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6" />            
       <div className="col-md-7 mx-auto">
-          <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
+          <div className="col-lg-5 col-md-12 col-sm-12 align-items-center">
           <h4 className="footer-text">
               Find Me On 
             </h4> 

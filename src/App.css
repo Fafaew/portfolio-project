@@ -19,7 +19,7 @@ font-family: "Roboto Condensed", sans-serif !important;
 }
 
 
-/************************ NAVBAR *********************************/
+/* NAVBAR */
 
 .navbar {
   height: 5rem;
@@ -84,10 +84,7 @@ nav ul li {
  }
 }
 
-
-
-
-/************************ HEADER *********************************/
+/* HEADER */
 
 .header-wraper {
   position: relative;
@@ -116,7 +113,7 @@ nav ul li {
   text-transform: uppercase;
 }
 
-/*-------- TYPED TEXT ---------------*/
+/* TYPED TEXT */
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white);
@@ -132,7 +129,7 @@ nav ul li {
   }
 }
 
-/*-------- HEADER MAIN OFFER BUTTON ---------------*/
+/* HEADER MAIN OFFER BUTTON */
 .btn-main-offer {
   border: 1px solid var(--primary-red);
   text-transform: uppercase;
@@ -149,7 +146,7 @@ nav ul li {
   transition:  .2s ease-in-out;
 }
 
-/*-------- PARTICLES JS ---------------*/
+/* PARTICLES JS */
 .tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
@@ -157,7 +154,7 @@ nav ul li {
   z-index: 1;
 }
 
-/************************ ABOUT ME *********************************/
+/* ABOUT ME **/
 .about-me {
 background: var(--primary-light-grey);
 }
@@ -213,7 +210,7 @@ background: var(--primary-light-grey);
   }  
 }
 
-/************************ PORTFOLIO *********************************/
+/* PORTFOLIO */
 .portfolio {
   text-align: center;
   padding-bottom: 2rem;
@@ -297,7 +294,7 @@ background: var(--primary-light-grey);
 
 
 
-/************************ EXPERIENCE *********************************/
+/* EXPERIENCE */
 
 .experience {
   padding: 0.7rem;
@@ -387,7 +384,7 @@ h3.vertical-timeline-element-title {
 }
 
 
-/*------------ MEDIA ------------------*/
+/* MEDIA */
 @media(max-width: 768px) {
 .experience .container {
   padding-left: 0;
@@ -409,71 +406,7 @@ h3.vertical-timeline-element-title {
   }
 }
 
-/************************ TESTIMONIALS *********************************/
-.testimonials {
-  background-image: url(testimonials-bg.jpg);
-  background-size: cover;
-  background-color: var(--primary-black);
-  text-align: center;
-  padding-bottom: 4rem;
-  margin-bottom: 0;
-  width: 100%;
-}
-
-.testimonials h1 {
-  color: var(--primary-orange);
-  padding: 3rem 0;
-  text-transform: uppercase;
-}
-
-.testimonials-content {
-  text-align: center;
-  max-width: 53.125rem;
-  margin: 0 auto 2rem auto;
-  background: var(--primary-transparent-black); 
-}
-
-.myCarousel {
-  color: var(--primary-white);
-  background: transparent;
-  margin-top: -6%;
-  width: 54%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 6%;
-  padding-bottom: 8%;
-  padding-left: 5%;
-  padding-right: 5%;
-  height: 17.875rem;
-}
-
-.myCarousel h3 {
-  color: var(--primary-orange);
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.myCarousel p {
-  color: var(--primary-grey);
-}
-
-.carousel .slide img {
-  width: 10rem !important;
-  border-radius: 50%;
-}
-
-.carousel .slide {
-  background: transparent !important;
-  height: 100% !important;
-  padding-top: 2rem;
-}
-
-.carousel-root {
-  margin: auto !important;
-  margin-top: 3% !important;
-}
-
-/************************ CONTACTS COMPONENT *********************************/
+/* CONTACTS COMPONENT */
 .contacts {
   background: var(--primary-dark);
   padding: 3rem 0;
@@ -491,8 +424,6 @@ h3.vertical-timeline-element-title {
 }
 
 /*------------------ INPUTS -------------------------------*/
-
-
 
 .contacts input, .contacts textarea {
   width: 100%;
@@ -630,5 +561,3 @@ input:-webkit-autofill {
   margin-left: auto;
   text-align: center;
 };
-
-

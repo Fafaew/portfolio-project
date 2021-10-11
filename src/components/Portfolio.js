@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhp, faGoogle, faGitAlt, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
+import { faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 import postit from '../images/imgPortfolio/postit.jpg';
 import gymImg from '../images/imgPortfolio/gymImg.jpg';
 import develop from '../images/imgPortfolio/Develop.jpg';

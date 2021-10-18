@@ -282,6 +282,8 @@ background: var(--primary-light-grey);
 
 .portfolioIcons {
   margin-top: 1.5rem;
+  display: inline-flex;
+  gap: 2rem;
 }
 
 .portfolioIcons a, .portfolioIcons a:hover  {

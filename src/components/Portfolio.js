@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
-import postit from "../images/imgPortfolio/postit.jpg";
-import gymImg from "../images/imgPortfolio/gymImg.jpg";
+import crypto from "../images/imgPortfolio/crypto.jpg";
+import ecommerce from "../images/imgPortfolio/ecommerce.jpg";
 import thermometer from "../images/imgPortfolio/thermometer.jpg";
 import dashboard from "../images/imgPortfolio/dashboard.jpg";
 import { faLaptop } from "@fortawesome/free-solid-svg-icons";
@@ -16,12 +16,12 @@ const Portfolio = () => {
           <div className=" col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="portfolio-image">
-                <img src={dashboard} alt="dashboard" />
+                <img src={dashboard} alt="dashboard"/>
               </div>
               <h3>Dashboard</h3>
               <p>
-                A admnistrative panel that contains metrics and indicators. That
-                numbers will help the achievement of organizational goals
+                A admnistrative panel with metrics and indicators that
+                 will help the achievement of organizational goals
               </p>
               <div className="portfolioIcons">
                 <a
@@ -46,16 +46,15 @@ const Portfolio = () => {
           <div className=" col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="portfolio-image">
-                <img src={gymImg} alt="gym weights" />
+                <img src={ecommerce} alt="gym weights" />
               </div>
-              <h3>Gym Management</h3>
+              <h3>E-commerce</h3>
               <p>
-                Gym management software is designed to help gym managers and
-                owners organize and manage all the aspects of their business
+              A Website site to buy and sell of products and services all over the world
               </p>
               <div className="portfolioIcons">
                 <a
-                  href="https://github.com/Fafaew/Gym-Management"
+                  href="https://github.com/Fafaew/react-ecommerce"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -63,7 +62,7 @@ const Portfolio = () => {
                   <p>Github</p>
                 </a>
                 <a
-                  href="https://fafaew.github.io/react-dashboard"
+                  href="https://reactecommerceapp.netlify.app/"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -76,16 +75,14 @@ const Portfolio = () => {
           <div className=" col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="portfolio-image">
-                <img src={postit} alt="task hand" />
+                <img src={crypto} alt="task hand" />
               </div>
-              <h3>Task Tracker</h3>
-              <p>
-                It's a single place where you and your team can organize and
-                prioritize every single task or item that needs to get done
+              <h3>Crypto Tracker</h3>
+              <p> Manage your investments with this tracker for over 1000 cryptocurrencies. Developed using CoinGecko API
               </p>
               <div className="portfolioIcons">
                 <a
-                  href="https://github.com/Fafaew/ReactTraskTracker"
+                  href="https://github.com/Fafaew/react-cryptocurrency-tracker"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -93,7 +90,7 @@ const Portfolio = () => {
                   <p>Github</p>
                 </a>
                 <a
-                  href="https://fafaew.github.io/react-dashboard"
+                  href="https://cryptocurr-react.netlify.app/"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -115,7 +112,7 @@ const Portfolio = () => {
               </p>
               <div className="portfolioIcons">
                 <a
-                  href="https://github.com/Fafaew/ReactTraskTracker"
+                  href="https://github.com/Fafaew/weather-location"
                   rel="noreferrer"
                   target="_blank"
                 >

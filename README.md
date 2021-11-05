@@ -1,12 +1,12 @@
 <p align="center">
-<a href="#"><img width="100%" height="100%" src="https://i.imgur.com/trr8HUe.png" height="175px"/></a>
+<a href="#"><img width="100%" height="100%" src="https://i.imgur.com/ML8PNYm.jpg" height="175px"/></a>
 </p>
 
 <br>
 <br>
 
-<h1 align="center">Dashboard</h1>
-<h3 align="center">A admnistrative panel that contains metrics and indicators. That numbers will help the achievement of organizational goals</h3>
+<h1 align="center">Portfolio</h1>
+<h3 align="center">A compilation of materials that exemplifies my skills, qualifications, education, training and experiences.</h3>
 
 <br>
 
@@ -38,22 +38,22 @@ npm -v
 
 Follow the following steps to get development environment running.
 
-* Clone _'react-dashboard'_ repository from GitHub
+* Clone _'portfolio-project'_ repository from GitHub
 
   ```bash
-  git clone https://github.com/Fafaew/react-dashboard.git
+  git clone https://github.com/Fafaew/portfolio-project.git
   ```
 
    _OR USING SSH_
 
   ```bash
-  git clone git@github.com:Fafaew/react-dashboard.git
+  git clone git@github.com:Fafaew/portfolio-project.git
   ```
 
 * Install node modules
 
    ```bash
-   cd weather-location
+   cd portfolio-project
 
    npm install
    ```
